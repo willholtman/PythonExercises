@@ -1,0 +1,5 @@
+#ALUGUEL DE CARRO - PERGUNTE A QNT DE KM RODADO E DIAS ALUGADOS E CALCULE O PREÇO A PAGAR (R$60 POR DIA E R$0,15 POR KM)
+d = int(input('Informe quantos dias o veículo foi utilizado:'))
+q = float(input('Informe quantos Km foram percorridos com o veículo:'))
+c = (d*60)+(q*.15)
+print('O valor total a pagar é de R${:.2f}'.format(c))
